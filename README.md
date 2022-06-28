@@ -1,8 +1,12 @@
-# MISP Security Playbook Object Template Workbench
+# MISP `security-playbook` Object Template - Workbench
 
-This is a workbench for designing and updating the **security-playbook** object template for MISP (https://www.misp-project.org/objects.html#_security_playbook). 
+**MISP `security-playbook` objects are used to manage, store, and share cybersecurity playbooks/orchestration workflows and can also integrate with Cyber Threat Intelligence (CTI) to provide additonal context.**
+
+This is a workbench for designing and updating the `security-playbook` object template for MISP (https://www.misp-project.org/objects.html#_security_playbook).
 
 **The authoritative JSON schema is available at: https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json**
+
+The table below populates version 3 of the object.
 
 | Property Name | Data Type | Description |
 | :--- | :--- |:--- |
@@ -24,3 +28,8 @@ This is a workbench for designing and updating the **security-playbook** object 
 | **playbook-priority** (optional)| `text` | From 0 to 100, a value representing the priority of this playbook relative to other defined playbooks. A value of 0 means specifically undefined. Priority values range from 1, the highest priority, to a value of 100, the lowest. |
 | **playbook-file** (requiredOneOf)| `attachment` | The entire playbook file/document in its native format (e.g., CACAO JSON or BPMN). |
 | **playbook-base64** (requiredOneOf)| `text` | The entire playbook encoded in base64. |
+
+---
+
+### Maintainer 
+* Vasileios Mavroeidis [Github handle: @Vasileios-Mavroeidis], [LinkedIn](https://www.linkedin.com/in/vasileiosmavroeidis)
