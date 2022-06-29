@@ -1,6 +1,6 @@
 # MISP `security-playbook` Object Template - Workbench
 
-**MISP `security-playbook` objects are used to manage, store, and share cybersecurity playbooks/orchestration workflows and can also integrate with Cyber Threat Intelligence (CTI) to provide additonal context.**
+**MISP `security-playbook` objects are used to desribe using metadata, structure, manage, store, and share cybersecurity playbooks/orchestration workflows and can also integrate with Cyber Threat Intelligence (CTI) to provide additonal context.**
 
 This is a workbench for designing and updating the `security-playbook` object template for MISP (https://www.misp-project.org/objects.html#_security_playbook).
 
