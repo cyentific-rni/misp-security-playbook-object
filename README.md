@@ -6,11 +6,11 @@ This is a workbench for designing and updating the `security-playbook` object te
 
 **The authoritative JSON schema is available at: https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json**
 
-The table below populates version 3 of the object.
+The table below populates the version 3 of the object.
 
 | Attribute Name | Data Type | Description |
 | :--- | :--- |:--- |
-| **playbook-id** (required)| `text` | A value that uniquely identifies the playbook. If the playbook itself embeds an identifier then the playbook-id **SHOULD** use the same identifier (value). If not, the producer **MAY** generate a unique identifier for the playbook. |
+| **playbook-id** (required)| `text` | A value that uniquely identifies the playbook. |
 | **description** (optional)| `text` | An explanation, details, and more context about what this playbook does and tries to accomplish. |
 | **revoked** (optional)| `boolean` | A boolean that identifies if the playbook is no longer valid (revoked). |
 | **playbook-creation-time** (optional)| `datetime` | The date and time at which the playbook was originally created. |
