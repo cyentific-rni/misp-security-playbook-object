@@ -1,12 +1,13 @@
 # MISP `security-playbook` Object Template - Workbench
 
-**MISP `security-playbook` objects are used to characterize (describe the properties and the scope of a playbook), manage, store, and share cybersecurity playbooks/orchestration workflows and can also integrate with Cyber Threat Intelligence (CTI) to provide additional context.**
+**NOTE: The AUTHORITATIVE JSON schema of the object template is: https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json**
+<br></br>
 
-This is a workbench for designing and updating the `security-playbook` object template for MISP (https://www.misp-project.org/objects.html#_security_playbook).
+MISP `security-playbook` objects are used to characterize (describe the properties and the scope of a playbook), manage, store, and share cybersecurity playbooks/orchestration workflows and can also integrate with Cyber Threat Intelligence (CTI) to provide additional context.
 
-**The authoritative JSON schema is available at: https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json**
+This repository is the workbench that the fovea research team used to design the `security-playbook` object template for MISP (https://www.misp-project.org/objects.html#_security_playbook).
 
-The table below populates the version 3 of the object.
+The table below represents version 3 of the security-playbook object.
 
 | Attribute Name | Data Type | Description |
 | :--- | :--- |:--- |
